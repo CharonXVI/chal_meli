@@ -1,0 +1,9 @@
+url: 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
+parameters:
+  start: '1'
+  limit: '5000'
+  convert: 'USD'
+headers:
+  Accepts: 'application/json'
+  X-CMC_PRO_API_KEY: '8d5d5fba-71ba-475e-aaed-5fa9e6e5618c'
+
