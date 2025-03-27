@@ -20,6 +20,7 @@ create table customer (
 create table  item (
   item_id serial  primary key,
   category_id int not null,
+  vendor_id int not null,
   nombre varchar not null,
   descripcion varchar not null,
   price decimal(10,2) not null,
